@@ -31,7 +31,6 @@ def get_netconf(xml_filter):
                          device_params={'name': 'default'},
                          allow_agent=False, look_for_keys=False) as m:
         with open(xml_filter) as f:
-            # MISSION: Replace XXX with the correct NETCONF operation
             return(m.get(f.read()))
 
 def create_message(interface):

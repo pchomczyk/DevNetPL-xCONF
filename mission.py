@@ -33,7 +33,6 @@ def get_netconf(xml_filter):
 ################################ MISSION #####################################
     with XXX as m:
         with open(xml_filter) as f:
-            # MISSION: Replace XXX with the correct NETCONF operation
             return(m.get(f.read()))
 
 def create_message(interface):
