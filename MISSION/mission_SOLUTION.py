@@ -19,7 +19,7 @@ PORT = 2022
 USER = 'admin'
 PASS = 'C1sco12345'
 # XML file to open
-FILE = 'get_interface_stats_SOLUTIONS.xml'
+FILE = 'get_interface_stats_SOLUTION.xml'
 
 # Function to retrieve information via NETCONF
 def get_netconf(xml_filter):
