@@ -7,9 +7,9 @@ import sys
 # the variables below assume the user is leveraging the
 # network programmability lab and accessing csr1000v
 # use the IP address or hostname of your CSR1000V device
-HOST = '198.18.133.218'
+HOST = '198.18.134.11'
 # use the NETCONF port for your CSR1000V device
-PORT = 2022
+PORT = 830
 # use the user credentials for your CSR1000V device
 USER = 'admin'
 PASS = 'C1sco12345'
