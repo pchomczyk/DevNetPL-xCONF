@@ -4,15 +4,9 @@ from ncclient import manager
 import sys
 
 
-# the variables below assume the user is leveraging the
-# network programmability lab and accessing csr1000v
-# use the IP address or hostname of your CSR1000V device
-HOST = '198.18.134.11'
-# use the NETCONF port for your CSR1000V device
-PORT = 830
-# use the user credentials for your CSR1000V device
-USER = 'admin'
-PASS = 'C1sco12345'
+# Extend the system path to include the project root and import the env files
+sys.path.insert(0, project_root)
+import env_lab  # noqa
 
 
 # create a main() method
@@ -20,10 +14,13 @@ def main():
     """
     Main method that prints netconf capabilities of remote device.
     """
-    with manager.connect(host=HOST, port=PORT, username=USER,
-                         password=PASS, hostkey_verify=False,
-                         device_params={'name': 'default'},
-                         look_for_keys=False, allow_agent=False) as m:
+    with manager.connect(
+            host=env_lab.IOS_XE_1["host"],
+            port=env_lab.IOS_XE_1["netconf_port"],
+            username=env_lab.IOS_XE_1["username"],
+            password=env_lab.IOS_XE_1["password"],
+            hostkey_verify=False
+            ) as m:
 
         # print all NETCONF capabilities
         print('***Here are the Remote Devices Capabilities***')

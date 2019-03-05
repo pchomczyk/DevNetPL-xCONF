@@ -1,7 +1,0 @@
-<filter>
-  <interfaces-state xmlns="urn:ietf:params:xml:ns:yang:XXX">
-    <interface>
-      <name>XXX</name>
-    </interface>
-  </interface>
-</filter>
