@@ -4,10 +4,8 @@ from ncclient import manager
 import sys
 
 
-# Extend the system path to include the project root and import the env files
-sys.path.insert(0, project_root)
+# Import the env files
 import env_lab  # noqa
-
 
 # create a main() method
 def main():

@@ -30,15 +30,7 @@ import xmltodict
 import xml.dom.minidom
 
 
-# Get the absolute path for the directory where this file is located "here"
-here = os.path.abspath(os.path.dirname(__file__))
-
-# Get the absolute path for the project / repository root
-project_root = os.path.abspath(os.path.join(here, "../.."))
-
-
-# Extend the system path to include the project root and import the env files
-sys.path.insert(0, project_root)
+# Import the env files
 import env_lab  # noqa
 
 # Create an XML filter for targeted NETCONF queries
