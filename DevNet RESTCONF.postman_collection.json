@@ -31,8 +31,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/.well-known/host-meta",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/.well-known/host-meta",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -69,8 +69,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -116,8 +116,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/netconf-state/capabilities",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/netconf-state/capabilities",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -167,8 +167,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-yang-library:modules-state",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-yang-library:modules-state",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -206,8 +206,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -245,8 +245,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet2",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet2",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -285,8 +285,8 @@
 							"raw": "{\n    \"ietf-interfaces:interface\": {\n        \"name\": \"GigabitEthernet2\",\n        \"description\": \"Configured by RESTCONF\",\n        \"type\": \"iana-if-type:ethernetCsmacd\",\n        \"enabled\": true,\n        \"ietf-ip:ipv4\": {\n            \"address\": [\n                {\n                    \"ip\": \"10.255.255.1\",\n                    \"netmask\": \"255.255.255.0\"\n                }\n            ]\n        }\n    }\n}"
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet2",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces/interface=GigabitEthernet2",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -324,8 +324,8 @@
 							"raw": "{\n    \"ietf-interfaces:interface\": {\n        \"name\": \"Loopback100\",\n        \"description\": \"Configured by RESTCONF\",\n        \"type\": \"iana-if-type:softwareLoopback\",\n        \"enabled\": true,\n        \"ietf-ip:ipv4\": {\n            \"address\": [\n                {\n                    \"ip\": \"172.16.100.1\",\n                    \"netmask\": \"255.255.255.0\"\n                }\n            ]\n        }\n    }\n}"
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -362,8 +362,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces/interface=Loopback100",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces/interface=Loopback100",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -401,8 +401,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet=2",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet=2",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -442,8 +442,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces-state/",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-interfaces:interfaces-state/",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -481,8 +481,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/Cisco-IOS-XE-native:native/hostname",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/Cisco-IOS-XE-native:native/hostname",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -531,8 +531,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-yang-library:modules-state",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-yang-library:modules-state",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -580,8 +580,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/ietf-restconf-monitoring:restconf-state/capabilities",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/ietf-restconf-monitoring:restconf-state/capabilities",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
@@ -619,8 +619,8 @@
 							"raw": ""
 						},
 						"url": {
-							"raw": "http://{{host}}:{{port}}/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet=2?fields=Cisco-IOS-XE-native:GigabitEthernet(name;description;ip)&depth=unbounded",
-							"protocol": "http",
+							"raw": "https://{{host}}:{{port}}/restconf/data/Cisco-IOS-XE-native:native/interface/GigabitEthernet=2?fields=Cisco-IOS-XE-native:GigabitEthernet(name;description;ip)&depth=unbounded",
+							"protocol": "https",
 							"host": [
 								"{{host}}"
 							],
