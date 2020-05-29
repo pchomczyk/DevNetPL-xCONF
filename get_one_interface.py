@@ -21,7 +21,7 @@ netconf_filter = """
     <interface>
       <name>GigabitEthernet1</name>
     </interface>
-  </interface>
+  </interfaces>
 </filter>"""
 
 print("Opening NETCONF Connection to {}".format(env_lab.IOS_XE_1["host"]))
@@ -37,7 +37,7 @@ with manager.connect(
 
     print("Sending a <get-config> operation to the device.\n")
     # Make a NETCONF <get-config> query using the filter
-    netconf_reply = m.get_config(source = 'running', filter = netconf_filter)
+    netconf_reply = m.get(filter = netconf_filter)
 
 print("Here is the raw XML data returned from the device.\n")
 # Print out the raw XML that returned
