@@ -21,7 +21,7 @@ netconf_filter = """
     <interface>
       <name>GigabitEthernet1</name>
     </interface>
-  </interface>
+  </interfaces>
 </filter>"""
 
 print("Opening NETCONF Connection to {}".format(env_lab.IOS_XE_1["host"]))
