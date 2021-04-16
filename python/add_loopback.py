@@ -62,12 +62,12 @@ netconf_interface_template = """
 
 # Ask for the Interface Details to Add
 new_loopback = {}
-new_loopback["name"] = "Loopback" + input("What loopback number to add? ")
-new_loopback["desc"] = input("What description to use? ")
+new_loopback["name"] = "Loopback" + raw_input("What loopback number to add? ")
+new_loopback["desc"] = raw_input("What description to use? ")
 new_loopback["type"] = IETF_INTERFACE_TYPES["loopback"]
 new_loopback["status"] = "true"
-new_loopback["ip_address"] = input("What IP address? ")
-new_loopback["mask"] = input("What network mask? ")
+new_loopback["ip_address"] = raw_input("What IP address? ")
+new_loopback["mask"] = raw_input("What network mask? ")
 
 # Create the NETCONF data payload for this interface
 netconf_data = netconf_interface_template.format(

@@ -59,7 +59,7 @@ netconf_interface_template = """
 
 # Ask for the Interface Details to Add
 new_loopback = {}
-new_loopback["name"] = "Loopback" + input("What loopback number to delete? ")
+new_loopback["name"] = "Loopback" + raw_input("What loopback number to delete? ")
 
 # Create the NETCONF data payload for this interface
 netconf_data = netconf_interface_template.format(
